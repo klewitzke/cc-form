@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #FFE4B5;
+	font-size: 14px;
+}
+
+fieldset {
+	border: 1px solid #000000;
+	margin-top: 5px;
+	background-color: #fff;
+}
+
+legend {
+	padding: 2px;
+	width: 200px;
+	text-align: center;
+	background-color: #e0e0e0;
+	border: 1px solid #000000;
+}
+
+i, h5 {
+	float: left;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+
+label {
+	float: left;
+	clear: left;
+	width: 140px;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 4px;
+	margin-top: 5px;
+}
+
+input.text, select {
+	float: left;
+	font-family: 'Arial';
+	font-size: 14px;
+	margin-top: 5px;
+	padding: 1px;
+}
+
+div.amount {
+	margin-bottom: 5px;
+}
+
+
+input.button {
+	width: 120px;
+
+	font-family: 'Arial';
+	font-size: 14px;
+}
+
+div.input {
+	width: 450px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+div.header {
+	width: 100%;
+	background-color: #e0e0e0;
+	line-height: 1.5em;
+	border-bottom: 1px solid black;
+	text-align: right;
+}
+
+div.main {
+	width: 450px;
+	margin: auto;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: blue;
+}
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+	border-radius: 0em;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:12px;
+	display: inline-block;
+}
+
+.isa_info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
